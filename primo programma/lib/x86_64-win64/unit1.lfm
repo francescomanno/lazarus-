@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 992
+  Height = 380
+  Top = 250
+  Width = 397
+  Caption = 'Form1'
+  ClientHeight = 380
+  ClientWidth = 397
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 15
+    Top = 8
+    Width = 133
+    Caption = 'Che cosa vuoi comprare?'
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 40
+    Width = 111
+    Caption = 'Quanto costa (euro)?'
+  end
+  object Edit1: TEdit
+    Left = 296
+    Height = 23
+    Top = 0
+    Width = 80
+    TabOrder = 0
+    Text = 'pantaloni'
+  end
+  object Edit2: TEdit
+    Left = 296
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 1
+    Text = '60'
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 80
+    Width = 96
+    Caption = 'Una settimana'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 25
+    Top = 112
+    Width = 152
+    Caption = 'Quanti giorni mi servono?'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 16
+    Height = 25
+    Top = 152
+    Width = 96
+    Caption = 'Con la paghetta'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Memo1: TMemo
+    Left = 247
+    Height = 242
+    Top = 72
+    Width = 150
+    ScrollBars = ssVertical
+    TabOrder = 5
+  end
+end
